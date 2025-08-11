@@ -29,7 +29,7 @@ export default function App(){
   const increment =()=>setCount(count+1);
   return(
     <div>
-      <h1>Degugging example</h1>
+      <h1>Debgugging example</h1>
       <p>count: {count}</p>
       <button onClick= {increment}>increase</button>
       <Child name= {username}/>
